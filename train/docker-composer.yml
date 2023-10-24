@@ -5,9 +5,9 @@ services:
     image: bitnami/postgresql-repmgr:latest
     environment:
       POSTGRESQL_POSTGRES_PASSWORD: adminpassword
-      POSTGRESQL_USERNAME: customuser_train
-      POSTGRESQL_PASSWORD: custompassword
-      POSTGRESQL_DATABASE: customdatabase
+      POSTGRESQL_USERNAME: lapteva_215_train
+      POSTGRESQL_PASSWORD: lapteva_215_library_train
+      POSTGRESQL_DATABASE: lapteva_215_library_train
       REPMGR_PASSWORD: repmgrpassword
       REPMGR_PRIMARY_HOST: postgres-master
       REPMGR_PARTNER_NODES: postgres-master,postgres-slave
