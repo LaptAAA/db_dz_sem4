@@ -5,9 +5,9 @@ services:
     image: bitnami/postgresql-repmgr:latest
     environment:
       POSTGRESQL_POSTGRES_PASSWORD: adminpassword
-      POSTGRESQL_USERNAME: customuser
-      POSTGRESQL_PASSWORD: custompassword
-      POSTGRESQL_DATABASE: customdatabase
+      POSTGRESQL_USERNAME: lapteva_215
+      POSTGRESQL_PASSWORD: lapteva_215
+      POSTGRESQL_DATABASE: lapteva_215
       REPMGR_PASSWORD: repmgrpassword
       REPMGR_PRIMARY_HOST: db-lib-postgres-master
       REPMGR_PARTNER_NODES: db-lib-postgres-master, db-lib-postgres-slave
@@ -23,9 +23,9 @@ services:
     image: bitnami/postgresql-repmgr:latest
     environment:
       POSTGRESQL_POSTGRES_PASSWORD: adminpassword
-      POSTGRESQL_USERNAME: customuser
-      POSTGRESQL_PASSWORD: custompassword
-      POSTGRESQL_DATABASE: customdatabase
+      POSTGRESQL_USERNAME: lapteva_215
+      POSTGRESQL_PASSWORD: lapteva_215
+      POSTGRESQL_DATABASE: lapteva_215
       REPMGR_PASSWORD: repmgrpassword
       REPMGR_PRIMARY_HOST: db-lib-postgres-master
       REPMGR_PARTNER_NODES: db-lib-postgres-master,db-lib-postgres-slave
@@ -42,9 +42,9 @@ services:
     image: bitnami/postgresql-repmgr:latest
     environment:
       POSTGRESQL_POSTGRES_PASSWORD: adminpassword
-      POSTGRESQL_USERNAME: customuser
-      POSTGRESQL_PASSWORD: custompassword
-      POSTGRESQL_DATABASE: customdatabase
+      POSTGRESQL_USERNAME: lapteva_215
+      POSTGRESQL_PASSWORD: lapteva_215
+      POSTGRESQL_DATABASE: lapteva_215
       REPMGR_PASSWORD: repmgrpassword
       REPMGR_PRIMARY_HOST: db-train-postgres-master
       REPMGR_PARTNER_NODES: db-train-postgres-master, db-train-postgres-slave
@@ -60,9 +60,9 @@ services:
     image: bitnami/postgresql-repmgr:latest
     environment:
       POSTGRESQL_POSTGRES_PASSWORD: adminpassword
-      POSTGRESQL_USERNAME: customuser
-      POSTGRESQL_PASSWORD: custompassword
-      POSTGRESQL_DATABASE: customdatabase
+      POSTGRESQL_USERNAME: lapteva_215
+      POSTGRESQL_PASSWORD: lapteva_215
+      POSTGRESQL_DATABASE: lapteva_215
       REPMGR_PASSWORD: repmgrpassword
       REPMGR_PRIMARY_HOST: db-train-postgres-master
       REPMGR_PARTNER_NODES: db-train-postgres-master, db-train-postgres-slave
@@ -80,9 +80,9 @@ services:
     image: bitnami/postgresql-repmgr:latest
     environment:
       POSTGRESQL_POSTGRES_PASSWORD: adminpassword
-      POSTGRESQL_USERNAME: customuser
-      POSTGRESQL_PASSWORD: custompassword
-      POSTGRESQL_DATABASE: customdatabase
+      POSTGRESQL_USERNAME: lapteva_215
+      POSTGRESQL_PASSWORD: lapteva_215
+      POSTGRESQL_DATABASE: lapteva_215
       REPMGR_PASSWORD: repmgrpassword
       REPMGR_PRIMARY_HOST: db-hospital-postgres-master
       REPMGR_PARTNER_NODES: db-hospital-postgres-master, db-hospital-postgres-slave
@@ -98,9 +98,9 @@ services:
     image: bitnami/postgresql-repmgr:latest
     environment:
       POSTGRESQL_POSTGRES_PASSWORD: adminpassword
-      POSTGRESQL_USERNAME: customuser
-      POSTGRESQL_PASSWORD: custompassword
-      POSTGRESQL_DATABASE: customdatabase
+      POSTGRESQL_USERNAME: lapteva_215
+      POSTGRESQL_PASSWORD: lapteva_215
+      POSTGRESQL_DATABASE: lapteva_215
       REPMGR_PASSWORD: repmgrpassword
       REPMGR_PRIMARY_HOST: db-hospital-postgres-master
       REPMGR_PARTNER_NODES: db-hospital-postgres-master, db-hospital-postgres-slave
